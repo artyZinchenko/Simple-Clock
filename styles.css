@@ -35,6 +35,8 @@ body {
   right: 50%;
   transform-origin: top center;
   transform: rotate(180deg);
+  transition: all 0.1s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
 .hand.hour-hand {
   background: whitesmoke;
